@@ -16,6 +16,7 @@ def Dog
   end 
   
   def self.clear_all
-    @@all.each do 
+    @@all.clear 
+  end 
   
 end 
